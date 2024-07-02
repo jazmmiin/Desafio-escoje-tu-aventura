@@ -1,0 +1,59 @@
+
+/* general */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para las páginas de situación y resolución */
+.situation-page, .resolution-page {
+    display: none;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos situación */
+.situation-page img {
+    max-width: 100%;
+    height: auto;
+}
+
+.situation-page p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.situation-page button {
+    display: block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #0074d9;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Estilos resolución */
+.resolution-page p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.resolution-page button {
+    display: block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #2ecc40;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
